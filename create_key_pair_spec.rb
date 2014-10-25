@@ -14,7 +14,7 @@ describe 'CreateKeyPair' do
 	end
 
 	it 'Create key pair' do
-		response = client.action('CreateKeyPair', 'KeyName' => 'apitest001', 'Password' => 'apitest001')
+		response = client.action('CreateKeyPairs', 'KeyName' => 'apitest001', 'Password' => 'apitest001')
 		expect(response.code).to eq(200)
 	end
 
