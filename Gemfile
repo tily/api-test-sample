@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'ace-client'
+gem 'nokogiri'
+gem 'rspec'
+gem 'rspec_junit_formatter'
